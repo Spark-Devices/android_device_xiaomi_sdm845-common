@@ -61,6 +61,7 @@ debug.cpurend.vsync=false
 persist.vendor.ims.disableUserAgent=0
 
 # IORap
+iorapd.readahead.enable=true
 ro.iorapd.enable=true
 
 # Media
