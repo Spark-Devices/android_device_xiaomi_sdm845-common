@@ -8,6 +8,7 @@ BOARD_VENDOR := xiaomi
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+RELAX_USES_LIBRARY_CHECK := true
 COMMON_PATH := device/xiaomi/sdm845-common
 
 # Architecture
