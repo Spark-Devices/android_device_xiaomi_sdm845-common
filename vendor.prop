@@ -113,7 +113,11 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # Graphics
 debug.egl.hw=0
 debug.sf.hw=0
+ro.hwui.use_vulkan=true
 ro.hardware.egl=adreno
+graphics.gpu.profiler.support=true
+renderthread.skia.reduceopstasksplitting=true
+debug.hwui.renderer=skiavk
 ro.hardware.vulkan=adreno
 debug.sf.early.app.duration=16500000
 debug.sf.early.sf.duration=21000000
