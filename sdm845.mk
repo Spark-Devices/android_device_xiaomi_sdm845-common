@@ -203,9 +203,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
 
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
-
 # IMS
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor
@@ -372,12 +369,10 @@ PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Override heap growth limit
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=256m
+    
 PRODUCT_PACKAGES += \
     android.frameworks.automotive.display@1.0.vendor \
     android.frameworks.cameraservice.common@2.0.vendor \
