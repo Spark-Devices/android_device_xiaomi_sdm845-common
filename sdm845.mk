@@ -224,6 +224,12 @@ PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_sdm845 \
     android.hardware.light@2.0 \
     android.hardware.light@2.0.vendor
+    
+#libProcess group
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
+    $(LOCAL_PATH)/configs/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
